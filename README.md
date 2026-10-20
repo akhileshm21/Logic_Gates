@@ -133,7 +133,7 @@ A single testbench verification engine `tb/AND_tb.v` was used to validate all th
 * Behaviour of all 7 fundamental gates
 * NAND and NOR as universal gates — any circuit can be built from only these
 * XOR as the sum generator in binary addition — foundation of the ALU
-*  Learned to simulate all Logic gates in all 3 kind of modelling.
+* Learned to simulate all Logic gates in all 3 kind of modelling.
 
 # Tools Used
 
