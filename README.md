@@ -106,7 +106,7 @@ The AND gate is a fundamental building block that performs logical multiplicatio
 
 ####  Simulation Waveform
 
-![AND Gate Vivado Waveform](sim/and_waveform.png.png)
+![AND Gate Vivado Waveform](sim/1_and_waveform.png)
 
 ####  Unified Simulation Analysis
 A single testbench verification engine `tb/AND_tb.v` was used to validate all three design variants. The simulation waveform confirms that **Structural, Dataflow, and Behavioral all yields the identical logical behavior and we can validate the waveform against the truth table to see that the waveform is correct.**
