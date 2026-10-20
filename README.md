@@ -26,6 +26,24 @@ Each gate is implemented in Dataflow,Gate and Behavioral level modelling in the 
 ```text
 Logic_Gates/
 │
+├── docs/                           # Circuit schematic diagram assets
+│   ├── 1_and_diagram.png           # 2-Input AND Gate schematic
+│   ├── 2_or_diagram.png            # 2-Input OR Gate schematic
+│   ├── 3_not_diagram.png           # Single-Input NOT Gate schematic
+│   ├── 4_nand_diagram.png          # Universal NAND Gate schematic
+│   ├── 5_nor_diagram.png           # Universal NOR Gate schematic
+│   ├── 6_xor_diagram.png           # Arithmetic XOR Gate schematic
+│   └── 7_xnor_diagram.png          # Arithmetic XNOR Gate schematic
+│
+├── sim/                            # Simulation output waveform assets
+│   ├── 1_and_waveform.png          # AND Gate functional waveform
+│   ├── 2_or_waveform.png           # OR Gate functional waveform
+│   ├── 3_not_waveform.png          # NOT Gate functional waveform
+│   ├── 4_nand_waveform.png         # NAND Gate functional waveform
+│   ├── 5_nor_waveform.png          # NOR Gate functional waveform
+│   ├── 6_xor_waveform.png          # XOR Gate functional waveform
+│   └── 7_xnor_waveform.png         # XNOR Gate functional waveform
+│
 ├── src/                            # Verilog HDL design source files
 │   ├── and_gate/                   # 2-Input AND gate design variants
 │   │   ├── AND_Behave.v            # Behavioral procedural model style
@@ -72,6 +90,7 @@ Logic_Gates/
 │   └── XNOR_tb.v                   # Verification engine for XNOR gate
 │
 └── README.md                       # Comprehensive portfolio documentation
+
 ```
 
 # Gates Implemented
