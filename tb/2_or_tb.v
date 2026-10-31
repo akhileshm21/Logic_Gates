@@ -9,7 +9,7 @@
 // Tool Versions: Vivado 2023.2
 // Description: Comprehensive testbench validating truth table accuracy for 
 //              Gate,Behavioral and Dataflow-Level Modelling of the 
-//              AND gate implementations.
+//              OR gate implementations.
 // 
 // Dependencies: OR_Behave.v,OR_Gate.v,OR_Dataflow.v.
 // 
