@@ -139,8 +139,7 @@ The AND gate is a fundamental building block that performs logical multiplicatio
 #### Design Schematic
 ![AND Gate Circuit Diagram](docs/1_and_diagram.png)
 
-#### Unified Simulation Analysis
-A single testbench verification engine `tb/1_and_tb.v` was used to validate all three design variants. The simulation waveform confirms that **Structural, Dataflow, and Behavioral paradigms all yield identical logical behavior, validating perfectly against the theoretical truth table.**
+
 
 ---
 
