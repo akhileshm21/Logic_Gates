@@ -27,6 +27,6 @@
 
 
 
-module OR_Dataflow(input A,B, output Y);
+module OR_Data(input A,B, output Y);
 assign Y=A|B;   //// Continuous dataflow assignment for combinational logic execution
 endmodule
