@@ -1,32 +1,53 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+////////////////////////////////////////////////////////////////////////////////// 
 // 
-// Create Date: 12.09.2026 21:59:48
-// Design Name: 
-// Module Name: Not
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
+// Create Date: 12.09.2026 00:18:34
+// Design Name: NOT Gate (TestBench)
+// Module Name: 3_not_tb
+// Project Name: Basic Logic Gates
+// Target Devices: xc7k70tfbv676-1 (AMD Xilinx Kintex-7)
+// Tool Versions: Vivado 2023.2
+// Description: Comprehensive testbench validating truth table accuracy for 
+//              Gate,Behavioral and Dataflow-Level Modelling of the 
+//              OR gate implementations.
 // 
-// Dependencies: 
+// Dependencies: NOT_Behave.v,NOT_Gate.v,NOT_Data.v.
 // 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Revision:        0.01 - 12.09.2026 - Initial testbench created with self-monitoring.
+//
+// | Signal Name | Type | Direction | Description                       |
+// |-------------|------|-----------|-----------------------------------|
+// |      a      | Reg  | Internal  | Stimulus Driver - Input A         |
+// |      b      | Reg  | Internal  | Stimulus Driver - Input B         |
+// |      t      | Wire | Internal  | Monitored Output from all 3 files |
+//
+// Additional Comments: 
+// ~ Here 'a' and 'b' are defined as registers as they are under a 
+// procedural code block to simulate real inputs.
+// ~ The '#10' indicates a simulation time delay of 10ns to let signals 
+// stabilize before moving to the next input combination.
+// ~ When you are using the Vivado as a tool there is no need of $dumpfile
+// and $dumpvars as the software will automatically create the simulation,
+// when you are using some other compiler it is very necessary.
+// ~ When you want to test any other module by using this testbench you need to change 
+// the filename accordingly by using the below syntax.              
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Not;
+module NOT_tb;
 reg a;
 wire t;
-Not_gate uut(.A(a),.Y(t));
-initial begin
+
+NOT_Behave uut(   // Syntax: Module_Name uut ( .Port_Name(Testbench_Signal) );
+            .A(a),  // Connecting testbench registers to the module ports.
+            .Y(t));
+            
+initial begin   // Test Stimulus Engine Block for simulation execution.
+$dumpfile("not_gate_simulation.vcd");  // Setup waveform dump tracking.
+$dumpvars(0, NOT_tb);
+// Apply all 4 Truth Table combinations sequentially and waits.
 a=0;#10;
 a=1;#10;
-$finish;
+$finish;     // To stop the waveform after the final output.
 end
 endmodule
