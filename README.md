@@ -274,3 +274,21 @@ The Exclusive-NOR gate is an inverted XOR gate. It outputs a high (`1`) only whe
 ### Digital Logic Design
 * Combinational logic characteristics of all 7 core gates
 * Proof of universal gate configurations (NAND/NOR) to replicate basic gates
+* XOR as the sum generator in binary addition — foundation of the ALU
+* Learned to simulate all Logic gates in all 3 kinds of modeling architectures (Behavioral, Dataflow, and Structural)
+
+## Tools Used
+
+| Tool | Purpose |
+| :--- | :--- |
+| **AMD Xilinx Vivado 2023.2** | Design Entry, Simulation Compilation, and Waveform Analysis |
+| **Git** | Distributed Version Control |
+
+## Author
+
+**Akhilesh M**  
+*B.Tech in Electronics and Communication Engineering (ECE), 2nd Year*  
+Building a robust digital electronics portfolio to deepen my knowledge of processor architectures and microelectronics layout.
+
+[![GitHub Profile](https://shields.io)](https://github.com/akhileshm21)
+
