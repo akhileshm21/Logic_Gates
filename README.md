@@ -110,10 +110,10 @@ Logic_Gates/
 | 1 | AND | `&` | Y = A · B | Basic |
 | 2 | OR | `\|` | Y = A + B | Basic |
 | 3 | NOT | `~` | Y = Ā | Basic |
-| 4 | NAND | `~&` | Y = ¬(A · B) | Universal |
-| 5 | NOR | `~\|` | Y = ¬(A + B) | Universal |
+| 4 | NAND | `~&` | Y = -(A · B) | Universal |
+| 5 | NOR | `~\|` | Y = -(A + B) | Universal |
 | 6 | XOR | `^` | Y = A ⊕ B | Arithmetic |
-| 7 | XNOR | `~^` | Y = ¬(A ⊕ B) | Arithmetic |
+| 7 | XNOR | `~^` | Y = -(A ⊕ B) | Arithmetic |
 
 > **Note:** NAND and NOR are called Universal Gates because any arbitrary Boolean function can be implemented using only combinations of these two gate types.
 
@@ -291,4 +291,5 @@ The Exclusive-NOR gate is an inverted XOR gate. It outputs a high (`1`) only whe
 Building a robust digital electronics portfolio to deepen my understanding and knowledge in  processor architecture.
 
 [![GitHub Profile](https://shields.io)](https://github.com/akhileshm21)
+
 
