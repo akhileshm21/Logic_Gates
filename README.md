@@ -135,12 +135,6 @@ The AND gate is a fundamental building block that performs logical multiplicatio
 A single testbench verification engine `tb/AND_tb.v` was used to validate all three design variants. The simulation waveform confirms that **Structural, Dataflow, and Behavioral all yields the identical logical behavior and we can validate the waveform against the truth table to see that the waveform is correct.**
 
 
-#### Waveform & Code Variant Analysis
-* **Structural Model `AND_Gate.v`:** Instantiates the primitive gate engine `and g1(Y, A, B);`, which matches the fundamental transistor-level schematic.
-* **Dataflow Model `AND_Data.v`:** Utilizes continuous assignment `assign Y = A & B;`, modeling real wire physical connections that are always active.
-* **Behavioral Model `AND_Behave.v`:** Leverages an `always @(*)` procedural block. The waveform demonstrates that the output updates instantaneously when either input changes, verifying correct combinational behavior without any clock latency.
-
-
 # Concepts Covered
 
 ### Verilog
