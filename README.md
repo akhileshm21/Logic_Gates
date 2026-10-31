@@ -80,14 +80,14 @@ Logic_Gates/
 │       ├── XNOR_Data.v             # Dataflow continuous assignment style
 │       └── XNOR_Gate.v             # Structural low-level primitive style
 │
-├── tb/                             # Verification testbench suite
-│   ├── AND_tb.v                    # Verification engine for AND gate
-│   ├── OR_tb.v                     # Verification engine for OR gate
-│   ├── NOT_tb.v                    # Verification engine for NOT gate
-│   ├── NAND_tb.v                   # Verification engine for NAND gate
-│   ├── NOR_tb.v                    # Verification engine for NOR gate
-│   ├── XOR_tb.v                    # Verification engine for XOR gate
-│   └── XNOR_tb.v                   # Verification engine for XNOR gate
+├── tb/                               # Verification testbench suite
+│   ├── 1_and_tb.v                    # Verification engine for AND gate
+│   ├── 2_or_tb.v                     # Verification engine for OR gate
+│   ├── 3_not_tb.v                    # Verification engine for NOT gate
+│   ├── 4_nand_tb.v                   # Verification engine for NAND gate
+│   ├── 5_nor_tb.v                    # Verification engine for NOR gate
+│   ├── 6_xor_tb.v                    # Verification engine for XOR gate
+│   └── 7_xnor_tb.v                   # Verification engine for XNOR gate
 │
 └── README.md                       # Comprehensive portfolio documentation
 
