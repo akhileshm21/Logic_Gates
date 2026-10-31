@@ -26,7 +26,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module OR_Behave(input A,B ,output reg Y);
-always@(*) begin    //// Combinational procedural block for behavioral description. 
+always@(*) begin    // Combinational procedural block for behavioral description. 
 Y=A|B;  
 end
 endmodule
