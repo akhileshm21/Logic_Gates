@@ -11,7 +11,7 @@
 //              Gate,Behavioral and Dataflow-Level Modelling of the 
 //              OR gate implementations.
 // 
-// Dependencies: OR_Behave.v,OR_Gate.v,OR_Dataflow.v.
+// Dependencies: OR_Behave.v,OR_Gate.v,OR_Data.v.
 // 
 // Revision:        0.01 - 10.09.2026 - Initial testbench created with self-monitoring.
 //
