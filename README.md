@@ -274,6 +274,7 @@ The Exclusive-NOR gate is an inverted XOR gate. It outputs a high (`1`) only whe
 * Combinational logic characteristics of all 7 core gates
 * Proof of universal gate configurations (NAND/NOR) to replicate basic gates
 * XOR as the sum generator in binary addition — foundation of the ALU
+* XOR and XNOR gates are Odd and Even Detectors respectively.
 * Learned to simulate all Logic gates in all 3 kinds of modeling architectures (Behavioral, Dataflow, and Structural)
 
 ## Tools Used
@@ -287,7 +288,7 @@ The Exclusive-NOR gate is an inverted XOR gate. It outputs a high (`1`) only whe
 
 **Akhilesh M**  
 *B.Tech in Electronics and Communication Engineering (ECE), 2nd Year*  
-Building a robust digital electronics portfolio to deepen my knowledge of processor architectures and microelectronics layout.
+Building a robust digital electronics portfolio to deepen my understanding and knowledge in  processor architecture.
 
 [![GitHub Profile](https://shields.io)](https://github.com/akhileshm21)
 
