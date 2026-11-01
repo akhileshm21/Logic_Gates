@@ -55,39 +55,39 @@ Logic_Gates/
 │
 ├── src/                            # Verilog HDL design source files
 │   ├── 1_and_gate/                   # 2-Input AND gate design variants
-│   │   ├── AND_Behave.v            # Behavioral procedural model style
-│   │   ├── AND_Data.v              # Dataflow continuous assignment style
-│   │   └── AND_Gate.v              # Structural low-level primitive style
+│   │   ├── And_Behave.v            # Behavioral procedural model style
+│   │   ├── And_Data.v              # Dataflow continuous assignment style
+│   │   └── And_Gate.v              # Structural low-level primitive style
 │   │
 │   ├── 2_or_gate/                    # 2-Input OR gate design variants
-│   │   ├── OR_Behave.v             # Behavioral procedural model style
-│   │   ├── OR_Data.v               # Dataflow continuous assignment style
-│   │   └── OR_Gate.v               # Structural low-level primitive style
+│   │   ├── Or_Behave.v             # Behavioral procedural model style
+│   │   ├── Or_Data.v               # Dataflow continuous assignment style
+│   │   └── Or_Gate.v               # Structural low-level primitive style
 │   │
 │   ├── 3_not_gate/                   # Single-Input NOT gate design variants
-│   │   ├── NOT_Behave.v            # Behavioral procedural model style
-│   │   ├── NOT_Data.v              # Dataflow continuous assignment style
-│   │   └── NOT_Gate.v              # Structural low-level primitive style
+│   │   ├── Not_Behave.v            # Behavioral procedural model style
+│   │   ├── Not_Data.v              # Dataflow continuous assignment style
+│   │   └── Not_Gate.v              # Structural low-level primitive style
 │   │
 │   ├── 4_nand_gate/                  # 2-Input Universal NAND gate variants
-│   │   ├── NAND_Behave.v           # Behavioral procedural model style
-│   │   ├── NAND_Data.v             # Dataflow continuous assignment style
-│   │   └── NAND_Gate.v             # Structural low-level primitive style
+│   │   ├── Nand_Behave.v           # Behavioral procedural model style
+│   │   ├── Nand_Data.v             # Dataflow continuous assignment style
+│   │   └── Nand_Gate.v             # Structural low-level primitive style
 │   │
 │   ├── 5_nor_gate/                   # 2-Input Universal NOR gate variants
-│   │   ├── NOR_Behave.v            # Behavioral procedural model style
-│   │   ├── NOR_Data.v              # Dataflow continuous assignment style
-│   │   └── NOR_Gate.v              # Structural low-level primitive style
+│   │   ├── Nor_Behave.v            # Behavioral procedural model style
+│   │   ├── Nor_Data.v              # Dataflow continuous assignment style
+│   │   └── Nor_Gate.v              # Structural low-level primitive style
 │   │
 │   ├── 6_xor_gate/                   # 2-Input Arithmetic XOR gate variants
-│   │   ├── XOR_Behave.v            # Behavioral procedural model style
-│   │   ├── XOR_Data.v              # Dataflow continuous assignment style
-│   │   └── XOR_Gate.v              # Structural low-level primitive style
+│   │   ├── Xor_Behave.v            # Behavioral procedural model style
+│   │   ├── Xor_Data.v              # Dataflow continuous assignment style
+│   │   └── Xor_Gate.v              # Structural low-level primitive style
 │   │
 │   └── 7_xnor_gate/                  # 2-Input Arithmetic XNOR gate variants
-│       ├── XNOR_Behave.v           # Behavioral procedural model style
-│       ├── XNOR_Data.v             # Dataflow continuous assignment style
-│       └── XNOR_Gate.v             # Structural low-level primitive style
+│       ├── Xnor_Behave.v           # Behavioral procedural model style
+│       ├── Xnor_Data.v             # Dataflow continuous assignment style
+│       └── Xnor_Gate.v             # Structural low-level primitive style
 │
 ├── tb/                             # Verification testbench suite
 │   ├── 1_and_tb.v                  # Verification engine for AND gate
