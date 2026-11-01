@@ -54,37 +54,37 @@ Logic_Gates/
 │   └── 7_xnor_waveform.png         # XNOR Gate functional waveform
 │
 ├── src/                            # Verilog HDL design source files
-│   ├── and_gate/                   # 2-Input AND gate design variants
+│   ├── 1_and_gate/                   # 2-Input AND gate design variants
 │   │   ├── AND_Behave.v            # Behavioral procedural model style
 │   │   ├── AND_Data.v              # Dataflow continuous assignment style
 │   │   └── AND_Gate.v              # Structural low-level primitive style
 │   │
-│   ├── or_gate/                    # 2-Input OR gate design variants
+│   ├── 2_or_gate/                    # 2-Input OR gate design variants
 │   │   ├── OR_Behave.v             # Behavioral procedural model style
 │   │   ├── OR_Data.v               # Dataflow continuous assignment style
 │   │   └── OR_Gate.v               # Structural low-level primitive style
 │   │
-│   ├── not_gate/                   # Single-Input NOT gate design variants
+│   ├── 3_not_gate/                   # Single-Input NOT gate design variants
 │   │   ├── NOT_Behave.v            # Behavioral procedural model style
 │   │   ├── NOT_Data.v              # Dataflow continuous assignment style
 │   │   └── NOT_Gate.v              # Structural low-level primitive style
 │   │
-│   ├── nand_gate/                  # 2-Input Universal NAND gate variants
+│   ├── 4_nand_gate/                  # 2-Input Universal NAND gate variants
 │   │   ├── NAND_Behave.v           # Behavioral procedural model style
 │   │   ├── NAND_Data.v             # Dataflow continuous assignment style
 │   │   └── NAND_Gate.v             # Structural low-level primitive style
 │   │
-│   ├── nor_gate/                   # 2-Input Universal NOR gate variants
+│   ├── 5_nor_gate/                   # 2-Input Universal NOR gate variants
 │   │   ├── NOR_Behave.v            # Behavioral procedural model style
 │   │   ├── NOR_Data.v              # Dataflow continuous assignment style
 │   │   └── NOR_Gate.v              # Structural low-level primitive style
 │   │
-│   ├── xor_gate/                   # 2-Input Arithmetic XOR gate variants
+│   ├── 6_xor_gate/                   # 2-Input Arithmetic XOR gate variants
 │   │   ├── XOR_Behave.v            # Behavioral procedural model style
 │   │   ├── XOR_Data.v              # Dataflow continuous assignment style
 │   │   └── XOR_Gate.v              # Structural low-level primitive style
 │   │
-│   └── xnor_gate/                  # 2-Input Arithmetic XNOR gate variants
+│   └── 7_xnor_gate/                  # 2-Input Arithmetic XNOR gate variants
 │       ├── XNOR_Behave.v           # Behavioral procedural model style
 │       ├── XNOR_Data.v             # Dataflow continuous assignment style
 │       └── XNOR_Gate.v             # Structural low-level primitive style
